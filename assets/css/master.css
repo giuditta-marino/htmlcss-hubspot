@@ -1,0 +1,107 @@
+/* AZZERAMENTO E REGOLE GENERALI */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html{
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.container{
+  width: 70%;
+  margin: 0 auto;
+}
+/* AZZERAMENTO E REGOLE GENERALI*/
+
+/* #F4F9FD */
+/* HEADER*/
+
+nav{
+  padding: 20px 0;
+  background-color: #f4f9fd;
+  }
+
+nav ul li{
+  display: inline-block;
+
+}
+
+header nav ul{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+nav ul li a{
+text-decoration: none;
+color: #4c606f;
+font-weight: bold;
+font-size: 11px;
+}
+
+nav .ul-left .fa-globe-americas{
+  color: #4c606f;
+  font-size: 11px;
+}
+
+#english:after{
+  content: ' \02C5';
+  color: #4c606f;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+#english{
+    border-right: 1px solid #4c606f;
+    line-height: 0px;
+}
+
+.ul-right{
+  float: right;
+  height: 27px;
+  line-height: 27px;
+}
+
+nav .ul-right .fa-search{
+  color: #00a4bd;
+  font-size: 11px;
+}
+
+.button{
+  border: 1px solid #fe775a;
+  border-radius: 3px;
+  padding: 1px 5px;
+}
+
+nav .button a{
+  font-size: 9px;
+}
+
+.bg-orange{
+  background-color: #fe775a;
+}
+
+li.bg-orange a{
+  color: #ffffff;
+}
+
+.btn-empty{
+  color: #fe775a;
+}
+/* HEADER*/
+
+/* UTILITY PER PADDING E MARGIN*/
+
+.pr-12{
+  padding-right: 12px;
+}
+
+.pl-12{
+  padding-left: 12px;
+}
+
+.mr-12{
+  margin-right: 12px;
+}
