@@ -9,9 +9,8 @@ body, html{
   font-family: 'Montserrat', sans-serif;
 }
 
-
 .container{
-  width: 70%;
+  width: 75%;
   margin: 0 auto;
 }
 /* AZZERAMENTO E REGOLE GENERALI*/
@@ -19,7 +18,7 @@ body, html{
 /* #F4F9FD */
 /* HEADER*/
 
-nav{
+.nav-first{
   padding: 20px 0;
   background-color: #f4f9fd;
   }
@@ -53,9 +52,17 @@ nav .ul-left .fa-globe-americas{
   font-weight: bold;
 }
 
+.arrow:after{
+  content: ' \02C5';
+  color: #4c606f;
+  font-size: 11px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
 #english{
-    border-right: 1px solid #4c606f;
-    line-height: 0px;
+  border-right: 1px solid #4c606f;
+  line-height: 0px;
 }
 
 .ul-right{
@@ -72,23 +79,38 @@ nav .ul-right .fa-search{
 .button{
   border: 1px solid #fe775a;
   border-radius: 3px;
-  padding: 1px 5px;
-}
-
-nav .button a{
+  padding: 10px 6px;
   font-size: 9px;
 }
 
 .bg-orange{
   background-color: #fe775a;
-}
-
-li.bg-orange a{
   color: #ffffff;
 }
 
 .btn-empty{
   color: #fe775a;
+}
+
+.nav-logo{
+  padding: 25px 0;
+  /* height: 50px;
+  line-height: 50px; */
+}
+
+.logo{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.logo img{
+  height: 22px;
+}
+
+.menu{
+  display: inline-block;
+  vertical-align: middle;
+  float: right;
 }
 /* HEADER*/
 
@@ -105,3 +127,15 @@ li.bg-orange a{
 .mr-12{
   margin-right: 12px;
 }
+
+/* UTILITY PER PADDING E MARGIN*/
+
+/* JUMBO */
+
+.bg-img{
+  background: url("../img/jumbotron.png");
+  background-size: cover;
+  height: 554px;
+}
+
+/* JUMBO */
