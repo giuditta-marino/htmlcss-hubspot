@@ -15,17 +15,14 @@ body, html{
 }
 /* AZZERAMENTO E REGOLE GENERALI*/
 
-/* #F4F9FD */
 /* HEADER*/
-
 .nav-first{
   padding: 20px 0;
   background-color: #f4f9fd;
-  }
+}
 
 nav ul li{
   display: inline-block;
-
 }
 
 header nav ul{
@@ -34,10 +31,11 @@ header nav ul{
 }
 
 nav ul li a{
-text-decoration: none;
-color: #4c606f;
-font-weight: bold;
-font-size: 11px;
+  text-decoration: none;
+  color: #4c606f;
+  font-weight: bold;
+  font-size: 11px;
+  vertical-align: middle;
 }
 
 nav .ul-left .fa-globe-americas{
@@ -67,8 +65,6 @@ nav .ul-left .fa-globe-americas{
 
 .ul-right{
   float: right;
-  height: 27px;
-  line-height: 27px;
 }
 
 nav .ul-right .fa-search{
@@ -94,8 +90,6 @@ nav .ul-right .fa-search{
 
 .nav-logo{
   padding: 25px 0;
-  /* height: 50px;
-  line-height: 50px; */
 }
 
 .logo{
@@ -115,7 +109,6 @@ nav .ul-right .fa-search{
 /* HEADER*/
 
 /* UTILITY PER PADDING E MARGIN*/
-
 .pr-12{
   padding-right: 12px;
 }
@@ -127,15 +120,20 @@ nav .ul-right .fa-search{
 .mr-12{
   margin-right: 12px;
 }
-
 /* UTILITY PER PADDING E MARGIN*/
 
 /* JUMBO */
 
 .bg-img{
-  background: url("../img/jumbotron.png");
-  background-size: cover;
+  background: url("../img/jumbotron.png") 100% 2%/100% no-repeat;
+  /* background-size: cover; */
   height: 554px;
 }
 
+.jumbo-bottom{
+  background-color: #afebe4;
+  height: 80px;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
 /* JUMBO */
