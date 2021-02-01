@@ -238,11 +238,11 @@ nav .ul-right .fa-search{
   width: 250px;
 }
 
-.first-section h2{
+h2{
   font-size: 30px;
 }
 
-.first-section p{
+p{
   font-size: 13px;
 }
 
@@ -252,7 +252,6 @@ nav .ul-right .fa-search{
 }
 
 .first-section p{
-  font-size: 13px;
   line-height: 23px;
 }
 
@@ -349,3 +348,54 @@ nav .ul-right .fa-search{
   width: calc(100% / 3 - 100px / 3);
 }
 /* PRIMA SEZIONE */
+
+/* SECONDA SEZIONE */
+
+.second-section{
+  background-color: #00a6bb;
+  background-image: linear-gradient(to right, #00a6bb, #00bca6);
+  color: #ffffff;
+}
+
+.second-section .learn-and-grow{
+  text-align: center;
+  padding: 50px 0;
+}
+
+/* TABLE */
+.second-section table{
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  margin-bottom: 80px;
+}
+
+.second-section table td{
+  padding: 23px;
+  text-align: center;
+  width: calc(100% / 4);
+}
+
+.second-section table .bordered{
+  border-right: 1px solid #ffffff;
+}
+
+#first-tr{
+    border-bottom: 1px solid #ffffff;
+}
+
+.second-section table .number{
+  font-size: 34px;
+  font-weight: bold;
+  padding: 15px 0;
+}
+
+.second-section i{
+  font-size: 34px;
+}
+
+.second-section table .t-description{
+font-size: 10px;
+}
+/* TABLE */
+/* SECONDA SEZIONE */
