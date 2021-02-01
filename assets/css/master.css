@@ -6,7 +6,7 @@
 }
 
 body, html{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .container{
@@ -15,7 +15,7 @@ body, html{
 }
 /* AZZERAMENTO E REGOLE GENERALI*/
 
-/* HEADER*/
+/* HEADER - NAV*/
 .nav-first{
   padding: 20px 0;
   background-color: #f4f9fd;
@@ -32,28 +32,28 @@ header nav ul{
 
 nav ul li a{
   text-decoration: none;
-  color: #4c606f;
+  color: #32495b;
   font-weight: bold;
-  font-size: 11px;
+  font-size: 12px;
   vertical-align: middle;
 }
 
 nav .ul-left .fa-globe-americas{
   color: #4c606f;
-  font-size: 11px;
+  font-size: 12px;
 }
 
 #english:after{
   content: ' \02C5';
   color: #4c606f;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: bold;
 }
 
 .arrow:after{
   content: ' \02C5';
   color: #4c606f;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: bold;
   padding-left: 10px;
 }
@@ -69,23 +69,7 @@ nav .ul-left .fa-globe-americas{
 
 nav .ul-right .fa-search{
   color: #00a4bd;
-  font-size: 11px;
-}
-
-.button{
-  border: 1px solid #fe775a;
-  border-radius: 3px;
-  padding: 10px 6px;
-  font-size: 9px;
-}
-
-.bg-orange{
-  background-color: #fe775a;
-  color: #ffffff;
-}
-
-.btn-empty{
-  color: #fe775a;
+  font-size: 12px;
 }
 
 .nav-logo{
@@ -106,7 +90,41 @@ nav .ul-right .fa-search{
   vertical-align: middle;
   float: right;
 }
-/* HEADER*/
+/* HEADER - NAV*/
+
+/* JUMBO */
+.bg-img{
+  background: url("../img/jumbotron.png") 17% 0% no-repeat;
+  height: 610px;
+}
+
+.jumbo-bottom{
+  background-color: #afebe4;
+  height: 83px;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+.jumbo h1{
+  font-size: 47px;
+}
+
+.jumbo h1, .jumbo p{
+  color: #33475b;
+}
+
+.jumbo p{
+  font-size: 13px;
+}
+
+.text-jumbo{
+  padding-right: 20px;
+}
+
+.jumbo .col-50{
+  padding-top: 64px;
+}
+/* JUMBO */
 
 /* UTILITY PER PADDING E MARGIN*/
 .pr-12{
@@ -117,23 +135,54 @@ nav .ul-right .fa-search{
   padding-left: 12px;
 }
 
+.pt-32{
+  padding-top: 32px;
+}
+
+.pb-32{
+  padding-bottom: 32px;
+}
+
+.mt-32{
+  margin-top: 32px;
+}
+
 .mr-12{
   margin-right: 12px;
 }
 /* UTILITY PER PADDING E MARGIN*/
 
-/* JUMBO */
-
-.bg-img{
-  background: url("../img/jumbotron.png") 100% 2%/100% no-repeat;
-  /* background-size: cover; */
-  height: 554px;
+/* UTILITY PER LAYOUT*/
+.col-100{
+  width: 100%;
 }
 
-.jumbo-bottom{
-  background-color: #afebe4;
-  height: 80px;
-  border-top: 3px solid black;
-  border-bottom: 3px solid black;
+.col-50{
+  width: 50%;
 }
-/* JUMBO */
+/* UTILITY PER LAYOUT*/
+
+/* UTILITY PER BUTTONS */
+.button{
+  border: 1px solid #fe775a;
+  border-radius: 3px;
+  padding: 11px 9px;
+  font-size: 11px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.bg-orange{
+  background-color: #fe775a;
+  color: #ffffff;
+}
+
+.btn-empty{
+  color: #fe775a;
+}
+
+.btn-big{
+  padding: 18px 38px;
+}
+/* UTILITY PER BUTTONS */
