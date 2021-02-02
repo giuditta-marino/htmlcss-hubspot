@@ -94,7 +94,16 @@ body, html{
   font-size: 11px;
   text-decoration: none;
   font-weight: bold;
-  /* display: inline-block; */
+}
+
+.button-special{
+  border: 1px solid #dadee0;
+  background-color: #dadee0;
+  color: #32495b;
+  border-radius: 3px;
+  padding: 11px 9px;
+  font-size: 11px;
+  text-decoration: none;
 }
 
 .bg-orange{
@@ -120,12 +129,10 @@ body, html{
 nav ul li{
   display: inline-block;
   vertical-align: middle;
-
 }
 
 header nav ul{
     display: inline-block;
-  /* vertical-align: middle; */
 }
 
 .nav-first ul{
@@ -230,6 +237,10 @@ nav .ul-right .fa-search{
 
 .jumbo .col-50{
   padding-top: 64px;
+}
+
+.jumbo .button{
+  display: inline-block;
 }
 /* JUMBO */
 
@@ -369,7 +380,11 @@ p{
 
 .second-section .learn-and-grow{
   text-align: center;
-  padding: 50px 0;
+  padding: 40px 0;
+}
+
+.learn-and-grow .subtitle{
+  line-height: 27px;
 }
 
 /* TABLE */
@@ -422,7 +437,8 @@ font-size: 10px;
 }
 
 .third-section p{
-  padding: 38px 0;
+  padding: 40px 0;
+  line-height: 23px;
 }
 
 .third-section .number{
@@ -430,12 +446,8 @@ font-size: 10px;
   font-weight: bold;
 }
 
-.third-section p{
-  line-height: 23px;
-}
-
 .loghi{
-  padding-top: 52px;
+  padding-top: 50px;
   padding-left: 52px;
 }
 
@@ -452,8 +464,13 @@ font-size: 10px;
   display: inline-block;
 }
 
+.third-section .call-to-action{
+  padding-bottom: 10px;
+}
+
 .third-section .text-call-to-action{
   padding-top: 50px;
+  padding-right: 45px;
 }
 
 .third-section .picture-t{
@@ -502,6 +519,72 @@ font-size: 10px;
 /* FOOTER */
 footer{
   background-color: #32495b;
+  color: #cbd6e2;
 }
 
+footer h4{
+  font-size: 13px;
+  line-height: 33px;
+  color: #ffffff;
+}
+
+footer ul li{
+  font-size: 13px;
+  line-height: 33px;
+}
+
+footer ul{
+  list-style: none;
+}
+
+footer .lists-footer{
+  padding: 25px 0;
+}
+
+footer .widgets li, #button-footer, footer .languages li{
+  display: inline-block;
+  padding-top: 10px;
+}
+
+footer .lang{
+  text-align: center;
+  padding-top: 27px;
+  padding-bottom: 8px;
+}
+
+footer a{
+  color: #cbd6e2;
+  padding-right: 16px;
+  text-decoration: none;
+}
+
+footer .line{
+   width: 100%;
+   border-top: 1px solid #cbd6e2;
+}
+
+footer .logo{
+  height: 27px;
+}
+
+footer .info li{
+  display: inline-block;
+}
+
+footer .privacy{
+  text-align: right;
+}
+
+.privacy li{
+  vertical-align: top;
+}
+
+.info{
+padding: 30px 0;
+}
+
+.logo-copyright{
+  line-height: 30px;
+  padding-top: 5px;
+}
 /* FOOTER */
