@@ -204,7 +204,9 @@ nav .ul-right .fa-search{
 
 /* JUMBO */
 .bg-img{
-  background: url("../img/jumbotron.png") 17% 0% no-repeat;
+  background: url("../img/jumbotron.png") no-repeat;
+  background-size: cover;
+  background-position: center;
   height: 610px;
 }
 
